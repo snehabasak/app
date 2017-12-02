@@ -1,0 +1,29 @@
+.container{
+background-color:black;
+height:60px;
+width:inherit;
+}
+.home{
+  width:40px;
+  height:auto;
+}
+.reciepe {
+  width:40px;
+  height:auto;
+}
+.profile {
+  width:40px;
+  height:auto;
+}
+.seasonal{
+  height:50px;
+  width:inherit;
+}
+#map {
+        height: 100%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
