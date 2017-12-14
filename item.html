@@ -1,70 +1,110 @@
 <!doctype html>
-<html lang="eng-US">
+<html>
 <head>
-  <title>snacksackpage</title>
+  <title>snacksackitem</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="libraries/jquery-ui-1.12.1/jquery-ui.min.css">
+  <link rel="stylesheet" href="libraries/jquery-ui-1.12.1/jquery-ui-1.12.1.custom/jquery-ui.min.css">
   <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
   <!-- Code Starts Here -->
   <div class="wrapper">
+    <div class="sticky-top">
             <div class="container">
                 <div class="row">
-                      <div class="col">
-                        <img src="images/logo.png" class="rounded float-left" alt="..." width="100" height="auto">
-                      </div>
-                      <div class="col2">
-                        <nav class="nav">
-                            <a class="nav-link active" href="#"><img src="images/hme.png" class="home"></a>
-                            <a class="nav-link" href="#"><img src="images/reciepe.png" class="reciepe"></a>
-                            <a class="nav-link" href="#"><img src="images/profile.png" class="profile"></a>
+                  <div class="col">
+                    <img src="images/logo.png" class="rounded logo" alt="...">
+                  </div>
+                      <div class="col text-right essentials">
+                        <nav>
+                              <a href="home.html"><img src="images/hme.png" class="home" alt=" "></a>
+                              <a href="#"><img src="images/reciepe.png" class="reciepe" alt=" "></a>
+                              <a href="#"><img src="images/profile.png" class="profile" alt=" "></a>
                           </nav>
                       </div>
                 </div>
            </div>
-           <div class="row">
-                   <div class="col">
-                     <figure class="figure">
-         <img src="images/item1.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                    </figure>
-           </div>
-           <div class="row">
-                   <div class="col">
-                     <div id="map"></div>
-                   </div>
-           </div>
-           <div class="row">
-                   <div class="col">
-                     <div id="accordion">
-  <h3>Section 1</h3>
-  <div>
-    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+</div>
+<div class="row">
+      <div class="col">
+        <nav>
+          <a href="snack-sack.html"><img src="images/arrow.png" class="back" alt="..."></a></nav>
+      </div>
+   </div>
+
+                 <div class="row">
+                       <div class="col">
+                                <img src="images/item1.png"  class="item1" alt="...">
+
+                    </div>
+                 </div>
+
+               <div class="row">
+                     <div class="col">
+                       <img src="images/source.png" class="source" alt="...">
+                     </div>
+              <div class="col text-right">
+                <div class="col-lg-10">
+      <div class="star-rating">
+        <span class="fa fa-star-o" data-rating="1"></span>
+        <span class="fa fa-star-o" data-rating="2"></span>
+        <span class="fa fa-star-o" data-rating="3"></span>
+        <span class="fa fa-star-o" data-rating="4"></span>
+        <span class="fa fa-star-o" data-rating="5"></span>
+        <input type="hidden" name="whatever1" class="rating-value" value="2.56">
+      </div>
+    </div>
   </div>
-  <h3>Section 2</h3>
-  <div>
-    <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+   <div id="accordion">
+
+  <h3 class="head">BENIFITS</h3>
+
+  <div class="benifits">
+    <p >Dragon fruit is low in calories yet offers numerous nutrients, including vitamin C, B vitamins, phosphorus, protein, calcium, fiber, captin, and antioxidants. It's proven to lower blood sugar levels as well as blood pressure, strengthen bones and teeth, promote healthy blood and tissue formation, strengthen the immune system, heal bruises and wounds faster and prevent respiratory problems.</p>
+
+
   </div>
-  <h3>Section 3</h3>
-  <div>
-    <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
-    <ul>
-      <li>List item one</li>
-      <li>List item two</li>
-      <li>List item three</li>
-    </ul>
+
+  <h3 class="head">RELATED RECIEPIES</h3>
+
+  <div class="benifits">
+     <img class="filter" src="images/reciepy1.jpg" alt="...">
+     <img class="filter" src="images/reciepy2.jpg" alt="...">
+     <img class="filter" src="images/reciepy3.jpg" alt="...">
+      <img class="filter" src="images/reciepy4.jpeg" alt="...">
   </div>
-  <h3>Section 4</h3>
+  <h3 class="head">TESTIMONIALS</h3>
+  <div class="benifits">
   <div>
-    <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+    <p>NICE BUY !!</p>
+      <p>By Selineon December 16, 2016 </p>
+      <hr>
+      <p>They are all very good to eat!</p>
+<p>By Shay on February 25, 2016</p>
+<hr>
+<p>The Dragon Fruits of this farm were juicy, delicious and very fresh when they came. Some were a little bruised but nothing compared to the dargon fruits at my local supermarket.</p>
+<p>By July David July 23, 2017</p>
   </div>
 </div>
-                   </div>
-           </div>
-         </div>
+ </div>
+
+ <div class="comment">
+    <hr>
+<form class="form-inline" role="form">
+            <div class="form-group">
+                <input class="form-control" type="text" placeholder="Your comments">
+            </div>
+            <div class="form-group">
+                <button class="btn1 btn-default"><img src="images/send1.png" alt="..."></button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
 <!-- Out Code Ends Here -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="libraries/jquery-ui-1.12.1/jquery-ui.min.js"></script>
